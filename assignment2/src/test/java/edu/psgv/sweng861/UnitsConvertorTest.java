@@ -9,6 +9,9 @@ import java.io.PrintWriter;
 import java.io.StringWriter;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+
 /**
  * This class performs the JUnit tests for the UnitsConvertor.java class
  * And provides 95% code coverage
@@ -36,6 +39,8 @@ class UnitsConvertorTest {
         System.setOut(new PrintStream(myOut));
         UnitsConvertor.main(null);
         final String printResult = myOut.toString();
+        assertNotNull(printResult);
+        assertFalse(printResult.isEmpty());
         assertEquals(expectedOutput, printResult);
     }
     /*
@@ -58,6 +63,8 @@ class UnitsConvertorTest {
         System.setOut(new PrintStream(myOut));
         UnitsConvertor.main(null);
         final String printResult = myOut.toString();
+        assertNotNull(printResult);
+        assertFalse(printResult.isEmpty());
         assertEquals(expectedOutput, printResult);
     }
     /*
@@ -80,6 +87,8 @@ class UnitsConvertorTest {
         System.setOut(new PrintStream(myOut));
         UnitsConvertor.main(null);
         final String printResult = myOut.toString();
+        assertNotNull(printResult);
+        assertFalse(printResult.isEmpty());
         assertEquals(expectedOutput, printResult);
     }
     /*
@@ -102,6 +111,8 @@ class UnitsConvertorTest {
         System.setOut(new PrintStream(myOut));
         UnitsConvertor.main(null);
         final String printResult = myOut.toString();
+        assertNotNull(printResult);
+        assertFalse(printResult.isEmpty());
         assertEquals(expectedOutput, printResult);
     }
     /*
@@ -124,6 +135,8 @@ class UnitsConvertorTest {
         System.setOut(new PrintStream(myOut));
         UnitsConvertor.main(null);
         final String printResult = myOut.toString();
+        assertNotNull(printResult);
+        assertFalse(printResult.isEmpty());
         assertEquals(expectedOutput, printResult);
     }
     /*
@@ -147,6 +160,8 @@ class UnitsConvertorTest {
         System.setOut(new PrintStream(myOut));
         UnitsConvertor.main(null);
         final String printResult = myOut.toString();
+        assertNotNull(printResult);
+        assertFalse(printResult.isEmpty());
         assertEquals(expectedOutput, printResult);
     }
     /*
@@ -170,6 +185,8 @@ class UnitsConvertorTest {
         System.setOut(new PrintStream(myOut));
         UnitsConvertor.main(null);
         final String printResult = myOut.toString();
+        assertNotNull(printResult);
+        assertFalse(printResult.isEmpty());
         assertEquals(expectedOutput, printResult);
     }
     /*
@@ -193,6 +210,8 @@ class UnitsConvertorTest {
         System.setOut(new PrintStream(myOut));
         UnitsConvertor.main(null);
         final String printResult = myOut.toString();
+        assertNotNull(printResult);
+        assertFalse(printResult.isEmpty());
         assertEquals(expectedOutput, printResult);
     }
     /*
@@ -216,6 +235,8 @@ class UnitsConvertorTest {
         System.setOut(new PrintStream(myOut));
         UnitsConvertor.main(null);
         final String printResult = myOut.toString();
+        assertNotNull(printResult);
+        assertFalse(printResult.isEmpty());
         assertEquals(expectedOutput, printResult);
     }
     /*
@@ -234,6 +255,8 @@ class UnitsConvertorTest {
         System.setOut(new PrintStream(myOut));
         UnitsConvertor.main(null);
         final String printResult = myOut.toString();
+        assertNotNull(printResult);
+        assertFalse(printResult.isEmpty());
         assertEquals(expectedOutput, printResult);
     }
     /*
@@ -252,6 +275,8 @@ class UnitsConvertorTest {
         System.setOut(new PrintStream(myOut));
         UnitsConvertor.main(null);
         final String printResult = myOut.toString();
+        assertNotNull(printResult);
+        assertFalse(printResult.isEmpty());
         assertEquals(expectedOutput, printResult);
     }
     /*
@@ -275,6 +300,8 @@ class UnitsConvertorTest {
         System.setOut(new PrintStream(myOut));
         UnitsConvertor.main(null);
         final String printResult = myOut.toString();
+        assertNotNull(printResult);
+        assertFalse(printResult.isEmpty());
         assertEquals(expectedOutput, printResult);
     }
     /*
@@ -297,6 +324,8 @@ class UnitsConvertorTest {
         System.setOut(new PrintStream(myOut));
         UnitsConvertor.main(null);
         final String printResult = myOut.toString();
+        assertNotNull(printResult);
+        assertFalse(printResult.isEmpty());
         assertEquals(expectedOutput, printResult);
     }
     /*
@@ -320,6 +349,8 @@ class UnitsConvertorTest {
         System.setOut(new PrintStream(myOut));
         UnitsConvertor.main(null);
         final String printResult = myOut.toString();
+        assertNotNull(printResult);
+        assertFalse(printResult.isEmpty());
         assertEquals(expectedOutput, printResult);
     }
     /*
@@ -342,6 +373,8 @@ class UnitsConvertorTest {
         System.setOut(new PrintStream(myOut));
         UnitsConvertor.main(null);
         final String printResult = myOut.toString();
+        assertNotNull(printResult);
+        assertFalse(printResult.isEmpty());
         assertEquals(expectedOutput, printResult);
     }
     /*
