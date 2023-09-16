@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.psgv.sweng861.UnitsConvertorTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2023-09-16T16:57:47" hostname="RESML-1723200" time="0.145">
+  <properties/>
+  <testcase name="testFootToMetric()" classname="edu.psgv.sweng861.UnitsConvertorTest" time="0.066"/>
+  <testcase name="testMilToMetric()" classname="edu.psgv.sweng861.UnitsConvertorTest" time="0.003"/>
+  <testcase name="testYardToMetric()" classname="edu.psgv.sweng861.UnitsConvertorTest" time="0.004"/>
+  <testcase name="testHundredYardsToMetric()" classname="edu.psgv.sweng861.UnitsConvertorTest" time="0.004"/>
+  <testcase name="testInvalidUnit()" classname="edu.psgv.sweng861.UnitsConvertorTest" time="0.003"/>
+  <testcase name="testInchToMetric()" classname="edu.psgv.sweng861.UnitsConvertorTest" time="0.004"/>
+  <testcase name="testMileToMetric()" classname="edu.psgv.sweng861.UnitsConvertorTest" time="0.006"/>
+  <testcase name="testCmToImperial()" classname="edu.psgv.sweng861.UnitsConvertorTest" time="0.007"/>
+  <testcase name="testLargeKmToImperial()" classname="edu.psgv.sweng861.UnitsConvertorTest" time="0.005"/>
+  <testcase name="testMeterToImperial()" classname="edu.psgv.sweng861.UnitsConvertorTest" time="0.006"/>
+  <testcase name="testInvalidNumber()" classname="edu.psgv.sweng861.UnitsConvertorTest" time="0.001"/>
+  <testcase name="testLargeMeterToImperial()" classname="edu.psgv.sweng861.UnitsConvertorTest" time="0.003"/>
+  <testcase name="testKmToImperial()" classname="edu.psgv.sweng861.UnitsConvertorTest" time="0.005"/>
+  <testcase name="testMmToImperial()" classname="edu.psgv.sweng861.UnitsConvertorTest" time="0.002"/>
+  <testcase name="testLargeMileToMetric()" classname="edu.psgv.sweng861.UnitsConvertorTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
